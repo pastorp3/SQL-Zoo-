@@ -61,7 +61,7 @@ WHERE population > ALL
 (SELECT population * 3 FROM world as y
   WHERE x.continent = y.continent AND population > 0 AND y.name != x.name)
 
--
+
 
 
 
